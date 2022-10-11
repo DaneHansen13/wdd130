@@ -1,0 +1,126 @@
+body {
+    max-width: 1600px;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: #0DAB76;
+}
+
+header {
+    background-color: #09733E;
+}
+
+nav a:hover {
+    background-color: #34B98B;
+}
+
+nav a {
+    background-color: #09733E;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #0DAB76;
+}
+
+.home-title {
+    background-color: #34B98B;
+}
+
+h4 {
+    background-color: #34B98B;
+}
+
+.book {
+    background-color: #0DAB76;
+    text-decoration: none;
+}
+
+.join {
+    background-color: rgba(204, 60, 197, 0);
+    text-decoration: none;
+}
+
+.book:hover {
+    background-color: #34B98B
+}
+
+.join:hover {
+    background-color: #09733E;
+}
+
+.msg h2 {
+    background-color: #0DAB76;
+}
+
+.msg p {
+    background-color: #0DAB76;
+}
+
+footer {
+    background-color: #09733E;
+}
+
+footer a {
+    background-color: #09733E;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: #053b0600;
+}
+
+.icon {
+    width: 80px;
+}
+
+.logo {
+    width: 80px;
+}
+
+nav a {
+    text-align: center;
+    color: #44280D;
+    text-decoration: none;
+}
+
+.book {
+    text-align: center;
+    color: #44280D;
+    text-decoration: none;
+}
+
+.join {
+    text-align: center;
+    color: #44280D;
+    text-decoration: none;
+}
+
+footer a {
+    text-align: center;
+    color: #44280D;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.insta {
+    width: 80px;
+}
+.fb {
+    width: 80px;
+}
+.twitter {
+    width: 80px;
+}
