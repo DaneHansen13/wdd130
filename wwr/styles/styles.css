@@ -1,3 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap');
+
+.home-title {
+    font-family: "Oswald";
+    color: #44280D;
+    font-size: 2em;
+}
+
+h4 {
+    font-family: "Ubuntu";
+    color: #44280D;
+    font-size: 1.5em;
+}
+
+h2 {
+    font-family: "Ubuntu";
+    color: #44280D;
+    font-size: 1.5em;
+}
+
+p {
+    font-family: "Oswald";
+    color: #44280D;
+    font-size: 1.75em;
+
+}
+a{
+    font-family: "Oswald";
+    color: #44280D;
+    font-size: 1.5em;
+}
 body {
     max-width: 1600px;
 }
@@ -13,6 +44,8 @@ body {
 
 body {
     background-color: #0DAB76;
+    padding: 0%;
+    margin: 0%;
 }
 
 header {
@@ -21,6 +54,7 @@ header {
 
 nav a:hover {
     background-color: #34B98B;
+    border-radius: 30%;
 }
 
 nav a {
@@ -41,6 +75,8 @@ h4 {
 }
 
 .book {
+    font-family: "Ubuntu";
+    font-size: 1.25em;
     background-color: #0DAB76;
     text-decoration: none;
 }
@@ -48,9 +84,11 @@ h4 {
 .join {
     background-color: rgba(204, 60, 197, 0);
     text-decoration: none;
+    padding: 15px 30px;
 }
 
 .book:hover {
+    border-radius: 30%;
     background-color: #34B98B
 }
 
@@ -60,10 +98,12 @@ h4 {
 
 .msg h2 {
     background-color: #0DAB76;
+    line-height: 1.5em;
 }
 
 .msg p {
     background-color: #0DAB76;
+    line-height: 1.5em;
 }
 
 footer {
@@ -75,8 +115,9 @@ footer a {
     text-decoration: none;
 }
 
-footer a:hover {
-    background-color: #053b0600;
+.link:hover {
+    background-color: #34B98B;
+    border-radius: 30%;
 }
 
 .icon {
@@ -115,12 +156,33 @@ footer p {
     font-size: 1.2em;
     text-decoration: none;
 }
+.social{
+    padding-top: 15px;
+}
 .insta {
     width: 80px;
+    color: #09733e00;
 }
+
 .fb {
     width: 80px;
+    color: #09733e00;
+    border-radius: 25%;
 }
+
 .twitter {
     width: 80px;
+    color: #09733e00;
+    border-radius: 25%;
+}
+
+.logo {
+    border-radius: 30%;
+    padding-top: 5px;
+}
+.card-img{
+    border: 10px solid #44280D;
+}
+main section img {
+    box-sizing: border-box;
 }
