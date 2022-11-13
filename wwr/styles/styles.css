@@ -13,7 +13,18 @@ h4 {
     font-size: 1.5em;
     text-shadow: 2px 2px #44280D
 }
-
+.para {
+    background-color: #09733E;
+    padding: 35px;
+    grid-column: 9/10;
+    grid-row: 5/6;
+    box-shadow: 5px 5px 10px #44280D;
+}
+h3{
+    font-family: "Ubuntu";
+    color: #44280D;
+    font-size: 1.5em;
+}
 h2 {
     font-family: "Ubuntu";
     color: #44280D;
@@ -109,7 +120,13 @@ h4 {
 .msg p {
     line-height: 1.5em;
 }
+.para h3 {
+    line-height: 1.5em;
+}
 
+.para p {
+    line-height: 1.5em;
+}
 footer {
     background-color: #09733E;
 }
@@ -177,7 +194,7 @@ footer p {
     border-radius: 25%;
 }
 
-.twitter {
+.twi {
     width: 80px;
     color: #09733e00;
     border-radius: 25%;
@@ -245,6 +262,11 @@ nav {
     grid-template-columns: 128px 128px 128px 128px 128px 128px 128px 128px 128px;
     
 }
+.river{
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto auto auto;
+    grid-template-rows:  auto auto auto auto auto auto auto;
+}
 
 .card-img{
     width: 100%;
@@ -253,7 +275,11 @@ nav {
 .mountains {
     width: 100%;
 }
-
+.river{
+    width: 100%;
+    grid-column: 1/10;
+    grid-row: 1/10;
+}
 .rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
