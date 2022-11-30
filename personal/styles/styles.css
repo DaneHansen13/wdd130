@@ -230,35 +230,27 @@ span.psw {
 header{
     background-color: #cde0f4;
 }
-.logo{
-    width: 200px;
-}
 body {
-    background-color: #0DAB76;
+    background-color: #cde0f4;
     padding: 0%;
     margin: 0%;
 }
 a {
     font-family: "Oswald";
-    color: #44280D;
+    color: #2d2a32;
     font-size: 1.5em;
 }
 nav a:hover {
-    background-color: #34B98B;
-    border-radius: 30%;
+    background-color: #f3d503;
 }
 
 nav a {
-    background-color: #006231;
+    background-color: #cde0f4;
     text-decoration: none;
-}
-
-nav a:hover {
-    background-color: #0DAB76;
 }
 nav a {
     text-align: center;
-    color: #44280D;
+    color: #2d2a32;
     text-decoration: none;
 }
 nav {
@@ -266,16 +258,16 @@ nav {
     justify-content: space-around;
 }
 footer {
-    background-color: #09733E;
+    background-color: #9bc1e9;
 }
 
 footer a {
-    background-color: #09733E;
+    background-color: #9bc1e9;
     text-decoration: none;
 }
 footer a {
     text-align: center;
-    color: #44280D;
+    color: #2d2a32;
     text-decoration: none;
 }
 
@@ -284,10 +276,30 @@ footer p {
     text-decoration: none;
 }
 footer {
-    background-color: #09733E;
+    background-color: #9bc1e9;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.header{
+  display: grid;
+  grid-template-columns: 20% 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.logo{
+  width: 300px;
+  grid-column: 1/2;
+  grid-row: auto
+}
+.home{
+  grid-column: 2/3;
+  grid-row: auto;
+}
+.list{
+  grid-column: 3/4;
+}
+.info{
+  grid-column: 4/5;
 }
